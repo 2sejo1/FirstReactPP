@@ -144,8 +144,8 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-`]))),rT=nT(_m||(_m=Cx(["",""],["",""])),iT),wm,_m;const oT=()=>C.jsx(C.Fragment,{children:C.jsx("h1",{children:C.jsx("a",{href:"#",className:sT})})}),sT=`
-block h-[45px] w-[45px] cursor-pointer bg-[url(./assets/img/suteamIcon.svg)] bg-cover bg-center bg-no-repeat max-md:h-[8vw] max-md:w-[8vw]
+`]))),rT=nT(_m||(_m=Cx(["",""],["",""])),iT),wm,_m;const oT=()=>C.jsx(C.Fragment,{children:C.jsx("h1",{children:C.jsx("a",{href:"#",className:sT,style:{backgroundImage:"url(./assets/img/suteamIcon.svg)"}})})}),sT=`
+block h-[45px] w-[45px] cursor-pointer bg-cover bg-center bg-no-repeat max-md:h-[8vw] max-md:w-[8vw]
 `,lT=()=>{const[t,e]=X.useState(!1),n=()=>{e(!t)};return C.jsxs("nav",{className:aT,children:[C.jsx("button",{className:uT,onClick:n,children:C.jsx("span",{className:`${cT} ${t?"rotate-45":"rotate-0"} ${t?"before:top-0":"before:top-[-9px]"} ${t?"before:rotate-[-90deg]":"before:rotate-0"} ${t?"after:bottom-0":"after:bottom-[-9px]"} ${t?"after:bg-transparent":"after:bg-black"}`})}),C.jsx("div",{className:`${hT} ${t?"max-md:translate-x-[-75vw]":"max-md:translate-x-[0]"}`,children:C.jsxs("ul",{className:dT,children:[C.jsx("li",{className:gu,children:C.jsx("a",{href:"#About",className:mu,children:"About"})}),C.jsx("li",{className:gu,children:C.jsx("a",{href:"#Project",className:mu,children:"Project"})}),C.jsx("li",{className:gu,children:C.jsx("a",{href:"#Work",className:mu,children:"Work"})}),C.jsx("li",{className:gu,children:C.jsx("a",{href:"#Contact",className:mu,children:"Contact"})})]})})]})},aT="relative",uT=`
 absolute right-[0] top-[-25px] z-20 hidden h-[50px] w-[50px] cursor-pointer border-0 bg-transparent p-[10px] max-md:block
 `,cT=`
