@@ -900,7 +900,6 @@ section {
             .approach-item {
               font-weight: 500;
               background-color: #ffffff99;
-              border: 2px solid #2e4fff45;
             }
             .approach-keyword {
               color: #acacac;
@@ -1007,7 +1006,6 @@ section {
             display: block;
             width: 100px;
             height: 1px;
-            background-color: #2e4fff;
             top: 12px;
             left: calc(100% - 35px);
             @media screen and (max-width: 719px) {
@@ -1114,7 +1112,6 @@ section {
               top: 50%;
               left: 50%;
               transform: translate(-50%, -50%);
-              background: url(../img/SlimArrow.svg) no-repeat right center/cover;
               @media screen and (max-width: 640px) {
                 width: 80px;
               }
@@ -1146,7 +1143,6 @@ section {
               top: 50%;
               left: 50%;
               transform: translate(-50%, -50%);
-              background: url(../img/FatArrow.svg) no-repeat center center/cover;
               @media screen and (max-width: 950px) {
                 transform: rotate(90deg) translate(-125%, 25%);
               }
@@ -1385,7 +1381,6 @@ section {
                 left: -80px;
                 width: 60px;
                 height: 2px;
-                background-color: #2e4fff;
                 @media screen and (max-width: 949px) {
                   display: none;
                 }
@@ -1398,7 +1393,6 @@ section {
                 left: -50px;
                 width: 30px;
                 height: calc(100% - 130px);
-                border-color: #2e4fff;
                 border-style: solid;
                 border-width: 0 0 2px 2px;
                 @media screen and (max-width: 949px) {

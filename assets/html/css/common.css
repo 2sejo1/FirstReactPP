@@ -1028,7 +1028,6 @@ section {
 .approach-sect .approach-wrap .inner-box .approach-list > li ul .approach-item {
   font-weight: 500;
   background-color: rgba(255, 255, 255, 0.6);
-  border: 2px solid rgba(46, 79, 255, 0.2705882353);
 }
 .approach-sect .approach-wrap .inner-box .approach-list > li ul .approach-keyword {
   color: #acacac;
@@ -1147,7 +1146,6 @@ section {
   display: block;
   width: 100px;
   height: 1px;
-  background-color: #2e4fff;
   top: 12px;
   left: calc(100% - 35px);
 }
@@ -1251,7 +1249,6 @@ section {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: url(../img/SlimArrow.svg) no-repeat right center/cover;
 }
 @media screen and (max-width: 640px) {
   .concept-sect .concept-wrap .inner-box > ul .list-title ul::after {
@@ -1289,7 +1286,6 @@ section {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: url(../img/FatArrow.svg) no-repeat center center/cover;
 }
 @media screen and (max-width: 950px) {
   .concept-sect .concept-wrap .inner-box > ul .list-item ul::after {
@@ -1500,7 +1496,6 @@ section {
   left: -80px;
   width: 60px;
   height: 2px;
-  background-color: #2e4fff;
 }
 @media screen and (max-width: 949px) {
   .information-sect .information-wrap .inner-box > ul > li:not(:first-child) > ul::before {
@@ -1515,7 +1510,6 @@ section {
   left: -50px;
   width: 30px;
   height: calc(100% - 130px);
-  border-color: #2e4fff;
   border-style: solid;
   border-width: 0 0 2px 2px;
 }
