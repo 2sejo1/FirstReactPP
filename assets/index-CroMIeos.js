@@ -144,7 +144,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-`]))),qE=GE(B0||(B0=nw(["",""],["",""])),XE),$0,B0;const QE=()=>S.jsx(S.Fragment,{children:S.jsx("h1",{children:S.jsx("a",{href:"/",className:ZE,style:{backgroundImage:"url(./assets/img/suteamIcon.svg)"}})})}),ZE=`
+`]))),qE=GE(B0||(B0=nw(["",""],["",""])),XE),$0,B0;const QE=()=>S.jsx(S.Fragment,{children:S.jsx("h1",{children:S.jsx("a",{href:"/FirstReactPP",className:ZE,style:{backgroundImage:"url(./assets/img/suteamIcon.svg)"}})})}),ZE=`
 block h-[45px] w-[45px] cursor-pointer bg-cover bg-center bg-no-repeat max-md:h-[8vw] max-md:w-[8vw]
 `,KE=()=>{const[t,e]=L.useState(!1),n=()=>{e(!t)};return S.jsxs("nav",{className:JE,children:[S.jsx("button",{className:eT,onClick:n,children:S.jsx("span",{className:`${tT} ${t?"rotate-45":"rotate-0"} ${t?"before:top-0":"before:top-[-9px]"} ${t?"before:rotate-[-90deg]":"before:rotate-0"} ${t?"after:bottom-0":"after:bottom-[-9px]"} ${t?"after:bg-transparent":"after:bg-black"}`})}),S.jsx("div",{className:`${nT} ${t?"max-md:translate-x-[-75vw]":"max-md:translate-x-[0]"}`,children:S.jsxs("ul",{className:iT,children:[S.jsx("li",{className:vu,children:S.jsx("a",{href:"#About",className:xu,children:"About"})}),S.jsx("li",{className:vu,children:S.jsx("a",{href:"#Project",className:xu,children:"Project"})}),S.jsx("li",{className:vu,children:S.jsx("a",{href:"#Work",className:xu,children:"Work"})}),S.jsx("li",{className:vu,children:S.jsx("a",{href:"#Contact",className:xu,children:"Contact"})})]})})]})},JE="relative",eT=`
 absolute right-[0] top-[-25px] z-20 hidden h-[50px] w-[50px] cursor-pointer border-0 bg-transparent p-[10px] max-md:block
