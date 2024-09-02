@@ -64,7 +64,7 @@ section {
   margin: 0 auto;
 
   @media screen and (max-width: 640px) {
-    width: 400px;
+    width: calc(100% - 40px);
   }
   @media screen and (min-width: 641px) {
     width: 570px;
@@ -94,6 +94,9 @@ section {
   font-weight: 900;
   text-align: center;
   margin-bottom: 80px;
+  @media screen and (max-width: 719px) {
+    font-size: 25px;
+  }
 }
 
 .bold {
@@ -102,6 +105,25 @@ section {
 
 .slim {
   font-weight: 300;
+}
+
+.fixed-pigma {
+  position: fixed;
+  display: block;
+  width: 80px;
+  height: 80px;
+  z-index: 500;
+  right: 30px;
+  bottom: 30px;
+  border-radius: 50%;
+  background: url(../img/figma.svg) center center / 40% no-repeat rgb(0, 0, 0);
+
+  @media screen and (max-width: 719px) {
+    width: 60px;
+    height: 60px;
+    right: 20px;
+    bottom: 20px;
+  }
 }
 
 /* // common */
@@ -174,6 +196,9 @@ section {
         display: flex;
         flex-direction: column;
         gap: 200px;
+        @media screen and (max-width: 719px) {
+          gap: 100px;
+        }
 
         .title-box {
           display: flex;
@@ -188,7 +213,7 @@ section {
             font-size: 24px;
             margin-left: 5px;
             @media screen and (max-width: 719px) {
-              font-size: 20px;
+              font-size: 15px;
               font-weight: 600;
               letter-spacing: 4px;
               opacity: 0.9;
@@ -203,7 +228,7 @@ section {
             @media screen and (max-width: 719px) {
               flex-direction: column;
               align-items: start;
-              font-size: 60px;
+              font-size: 40px;
               gap: 5px;
             }
             @media screen and (min-width: 720px) {
@@ -243,7 +268,7 @@ section {
             color: #303030;
             font-size: 32px;
             @media screen and (max-width: 719px) {
-              font-size: 23px;
+              font-size: 18px;
             }
             @media screen and (min-width: 720px) {
               font-size: 28px;
@@ -265,7 +290,9 @@ section {
                 display: flex;
                 gap: 30px;
                 font-size: 20px;
-
+                @media screen and (max-width: 719px) {
+                  font-size: 14px;
+                }
                 .desc-title {
                   display: inline-block;
                   width: 80px;
@@ -371,7 +398,7 @@ section {
             font-size: 23px;
             margin-bottom: 20px;
             @media screen and (max-width: 640px) {
-              font-size: 19px;
+              font-size: 16px;
               margin-bottom: 17px;
             }
             @media screen and (min-width: 641px) and (max-width: 849px) {
@@ -396,7 +423,7 @@ section {
             line-height: 40px;
             color: #000;
             @media screen and (max-width: 640px) {
-              font-size: 23px;
+              font-size: 20px;
               line-height: 30px;
             }
             @media screen and (min-width: 641px) and (max-width: 849px) {
@@ -424,7 +451,7 @@ section {
           font-size: 19px;
           line-height: 28px;
           @media screen and (max-width: 640px) {
-            font-size: 17px;
+            font-size: 15px;
             line-height: 24px;
             gap: 25px;
             letter-spacing: -1px;
@@ -521,6 +548,9 @@ section {
           .emoji {
             font-size: 100px;
             margin-bottom: 30px;
+            @media screen and (max-width: 719px) {
+              font-size: 70px;
+            }
             @media screen and (min-width: 1050px) {
               font-size: 90px;
             }
@@ -531,6 +561,9 @@ section {
           .desc-text {
             font-size: 19px;
             line-height: 29px;
+            @media screen and (max-width: 719px) {
+              font-size: 15px;
+            }
             @media screen and (min-width: 1050px) {
               font-size: 16px;
             }
@@ -540,6 +573,9 @@ section {
           }
           .title-text {
             font-size: 21px;
+            @media screen and (max-width: 719px) {
+              font-size: 17px;
+            }
             @media screen and (min-width: 1050px) {
               font-size: 18px;
             }
@@ -685,7 +721,7 @@ section {
             font-size: 28px;
             margin-bottom: 40px;
             @media screen and (max-width: 849px) {
-              font-size: 25px;
+              font-size: 22px;
               line-height: 30px;
             }
             @media screen and (min-width: 850px) {
@@ -718,6 +754,9 @@ section {
                 .list-title {
                   font-size: 23px;
                   margin-bottom: 15px;
+                  @media screen and (max-width: 719px) {
+                    font-size: 19px;
+                  }
                 }
                 ul {
                   margin-left: 15px;
@@ -727,7 +766,7 @@ section {
                     padding: 3px 0;
                     list-style: circle;
                     @media screen and (max-width: 849px) {
-                      font-size: 17px;
+                      font-size: 14px;
                     }
                     @media screen and (min-width: 850px) {
                       font-size: 15px;
@@ -927,6 +966,9 @@ section {
       font-size: 22px;
       text-align: center;
       line-height: 38px;
+      @media screen and (max-width: 719px) {
+        font-size: 16px;
+      }
     }
   }
 }
@@ -948,6 +990,9 @@ section {
       font-size: 22px;
       text-align: center;
       line-height: 38px;
+      @media screen and (max-width: 719px) {
+        font-size: 15px;
+      }
     }
     .inner-box {
       margin-top: 150px;
@@ -1031,6 +1076,9 @@ section {
             .item-title {
               font-size: 24px;
               margin-bottom: 30px;
+              @media screen and (max-width: 719px) {
+                font-size: 18px;
+              }
             }
             .item-desc {
               display: block;
@@ -1041,11 +1089,17 @@ section {
               span {
                 font-weight: 300;
                 font-size: 14px;
+                @media screen and (max-width: 719px) {
+                  font-size: 13px;
+                }
               }
               p {
                 margin-top: 6px;
                 font-size: 22px;
                 font-weight: 500;
+                @media screen and (max-width: 719px) {
+                  font-size: 18px;
+                }
               }
             }
           }
@@ -1101,6 +1155,9 @@ section {
         .list-title {
           font-size: 19px;
           padding-bottom: 20px;
+          @media screen and (max-width: 719px) {
+            font-size: 17px;
+          }
           ul {
             position: relative;
             &::after {
@@ -1163,11 +1220,17 @@ section {
               border: 1px solid #00000066;
               font-size: 22px;
               font-weight: 500;
+              @media screen and (max-width: 719px) {
+                font-size: 16px;
+              }
             }
             .item-concept {
               font-weight: 300;
               p {
                 font-size: 14px;
+                @media screen and (max-width: 719px) {
+                  font-size: 12px;
+                }
                 color: #ffffffbf;
                 em {
                   display: inline-block;
@@ -1175,6 +1238,9 @@ section {
                   font-size: 22px;
                   font-weight: 500;
                   color: #ffffff;
+                  @media screen and (max-width: 719px) {
+                    font-size: 16px;
+                  }
                 }
               }
             }
@@ -1196,6 +1262,9 @@ section {
           padding: 50px 0 80px 0;
           font-size: 22px;
           line-height: 32px;
+          @media screen and (max-width: 719px) {
+            font-size: 16px;
+          }
         }
         ul {
           display: flex;
@@ -1213,7 +1282,7 @@ section {
               bottom: 10px;
               font-weight: 500;
               font-size: 20px;
-              @media screen and (max-width: 640px) {
+              @media screen and (max-width: 719px) {
                 transform: rotate(90deg);
                 top: -45px;
                 left: -35px;
@@ -1228,6 +1297,9 @@ section {
           padding: 50px 0 80px 0;
           font-size: 22px;
           line-height: 32px;
+          @media screen and (max-width: 719px) {
+            font-size: 16px;
+          }
         }
         ul {
           display: flex;
@@ -1268,6 +1340,9 @@ section {
         font-size: 22px;
         line-height: 30px;
         margin-bottom: 100px;
+        @media screen and (max-width: 719px) {
+          font-size: 16px;
+        }
         p {
           &:first-child {
             margin-bottom: 40px;
@@ -1306,11 +1381,17 @@ section {
                 font-size: 30px;
                 font-weight: 600;
                 color: #000;
+                @media screen and (max-width: 719px) {
+                  font-size: 20px;
+                }
               }
               span {
                 font-size: 18px;
                 font-weight: 100;
                 color: #939393;
+                @media screen and (max-width: 719px) {
+                  font-size: 16px;
+                }
               }
             }
             .item-desc {
@@ -1320,6 +1401,9 @@ section {
                   font-size: 25px;
                   padding: 10px 0;
                   color: #000;
+                  @media screen and (max-width: 719px) {
+                    font-size: 16px;
+                  }
                   &:nth-child(1) {
                     font-weight: 900;
                   }
@@ -1419,6 +1503,9 @@ section {
                 display: block;
                 font-size: 22px;
                 font-weight: 500;
+                @media screen and (max-width: 719px) {
+                  font-size: 16px;
+                }
               }
 
               span {
@@ -1426,6 +1513,9 @@ section {
                 margin-top: 6px;
                 font-weight: 300;
                 font-size: 14px;
+                @media screen and (max-width: 719px) {
+                  font-size: 12px;
+                }
               }
             }
           }
@@ -1531,6 +1621,9 @@ section {
       font-weight: 600;
       text-align: center;
       color: #ffffff9b;
+      @media screen and (max-width: 719px) {
+        font-size: 20px;
+      }
     }
   }
 }
