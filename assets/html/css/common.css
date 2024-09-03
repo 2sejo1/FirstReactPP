@@ -126,23 +126,16 @@ section {
   font-weight: 300;
 }
 
-.fixed-pigma {
-  position: fixed;
+.go-pigma {
   display: block;
-  width: 80px;
-  height: 80px;
-  z-index: 500;
-  right: 30px;
-  bottom: 30px;
-  border-radius: 50%;
-  background: url(../img/figma.svg) center center/40% no-repeat rgb(0, 0, 0);
+  margin-top: 10px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.7647058824);
+  cursor: pointer;
 }
 @media screen and (max-width: 719px) {
-  .fixed-pigma {
-    width: 60px;
-    height: 60px;
-    right: 20px;
-    bottom: 20px;
+  .go-pigma {
+    font-size: 16px;
   }
 }
 
